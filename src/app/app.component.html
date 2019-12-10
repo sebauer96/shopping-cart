@@ -6,10 +6,13 @@
     </ul> <!--end navbar-left -->
 
     <ul class="navbar-right">
-      <li><a href="#" id="cart"><i class="fa fa-shopping-cart"></i> Cart <span class="badge">3</span></a></li>
+      <li><a href="#" id="cart" (click)="cart()"><i class="fa fa-shopping-cart"></i> Cart</a></li>
     </ul> <!--end navbar-right -->
   </div> <!--end container -->
 </nav>
 
 
-<app-cart></app-cart>
+<app-cart *ngIf="openCart"></app-cart>
+
+
+<app-product></app-product>
