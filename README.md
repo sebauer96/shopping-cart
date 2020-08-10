@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ShoppingCart
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
@@ -29,4 +28,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 =======
 # shopping-cart
 Shopping Cart with Angular and RxJS
->>>>>>> 89477a7c8c9a449d2d2ed44cd4b2766ce019185d
